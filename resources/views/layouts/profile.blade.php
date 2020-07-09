@@ -50,6 +50,7 @@
 
                         <!-- Right Side Of Navbar -->
                         <ul class="navbar-nav ml-auto">
+                            <!-- 課題1 -->
                             <!-- Authentication Links -->
                             {{-- ログインしていなかったらログイン画面へのリンクを表示 --}}
                             @guest

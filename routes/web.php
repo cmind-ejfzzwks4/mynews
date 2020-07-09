@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+// 課題2, 3
 Route::group(['prefix' => 'admin'], function() {
     Route::get('news/create', 'Admin\NewsController@add')->middleware('auth');
     Route::get('profile/create', 'Admin\ProfileController@add')->middleware('auth');
