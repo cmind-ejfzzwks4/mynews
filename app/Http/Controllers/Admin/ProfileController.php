@@ -5,6 +5,9 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
+// 以下を追記することでProfile Modelが扱えるようになる
+use App\Profile;
+
 class ProfileController extends Controller
 {
     public function add()
@@ -14,6 +17,8 @@ class ProfileController extends Controller
 
     public function create()
     {
+ 
+
         return redirect('admin/profile/create');
     }
 

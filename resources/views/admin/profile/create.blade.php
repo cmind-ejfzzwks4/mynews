@@ -10,7 +10,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <!-- 課題4 -->
                 <h2>My プロフィール</h2>
                 <form action="{{ action('Admin\ProfileController@create') }}" method="post" enctype="multipart/form-data">
 
