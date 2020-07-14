@@ -13,7 +13,6 @@ class CreateProfilesTable extends Migration
      */
     public function up()
     {
-        // 課題4
         Schema::create('profiles', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name'); // 名前を保存するカラム

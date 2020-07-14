@@ -1,5 +1,4 @@
 <?php
-// 課題5
 
 namespace App;
 
