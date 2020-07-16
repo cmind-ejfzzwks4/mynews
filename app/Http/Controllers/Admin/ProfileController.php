@@ -55,7 +55,7 @@ class ProfileController extends Controller
         }
         return view('admin.profile.edit', ['form' => $profile]);
     }
-
+    //課題1
     public function update(Request $request)
     {
         // Varidationを行う
