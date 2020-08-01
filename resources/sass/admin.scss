@@ -1,40 +1,181 @@
 body {
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #000;
-    color: #fff;
+    // background-color: #f2d58a;
+    // background-image: url(images/蜂の巣_3.png);
+    color: #000;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-family: "Nunito", sans-serif;
+    // width: 100%;
 }
 
-.navbar-laravel {
-    background-color: #000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+.nav_header {
+    z-index: 9999;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 1500px;
+    height: 40px;
+    background-color:#fff;
+    // background-color:#8aa8f2;
+    opacity: 0.6;
+    border-bottom: 1px solid #ccb374;
+    // padding: 0.2rem 1rem;
+    // padding: 0.5rem 1rem;
 }
+
+// .container {
+//     width: 100%;
+//     padding-right: 15px;
+//     padding-left: 15px;
+//     margin-right: auto;
+//     margin-left: auto;
+// }
+
+// .navbar-laravel {
+//     background-color: #7c9599;
+//     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+// }
 
 .navbar-brand {
-    color: #fff !important;
+    color: gray !important;
+    margin-left: auto;
+    // padding: 0.2rem 1rem;
+    // padding-right: 15px;
+    // padding-left: 15px;
+    // margin-right: 15px;
+    // margin-left: auto;
 }
 
 .nav-link {
-    color: #fff !important;
+    color: gray !important;
+    margin-right: auto;
 }
 
-.table-dark {
-    color: #fff;
-}
+// .list-group-item {
+//     border-color: #fff;
+//     background-color: gray;
+// }
 
-.list-group-item {
-    border-color: #fff;
-    background-color: #000;
-}
+// ログイン画面
 
 .login-box {
-    background-color: rgba(0, 0, 0, 0);
+    // background-color: rgba(0, 0, 0, 0);
+    background-color: #EFEFEF;
 }
 
 .login-header {
-    background-color: rgba(0, 0, 0, 0.25);
+    // background-color: rgba(0, 0, 0, 0.25);
+    background-color: #94adda;
 }
 
 .login-body {
-    background-color: rgba(0, 0, 0, 0.25);
+    // background-color: rgba(0, 0, 0, 0.25);
+    background-color: #EFEFEF;
+}
+
+// コンテンツ
+
+.py-4 {
+    margin-top: 50px;
+}
+
+// .row {
+//     margin-right: 70px;
+//     margin-left: 70px;
+// }
+
+table {
+    // width: 400px; 
+    // height: 150px; 
+    border-collapse: collapse;
+    // border-color: #7facc9;
+    border: 5px solid;
+}
+
+// table.table {
+//     // border-style: solid #192f60; /* 線種 */
+//     border-width: 5px; /* 線の太さ */
+//     border-color: #192f60; /* 線色 */
+// }
+
+table.table-dark {
+    color: #000;
+    width: 80%;
+    border-color: #8da0b6;
+    // border-color: #192f60;
+    border-width: 5px;
+    // border-style: solid #192f60;
+    // border-spacing: 2px;
+    // display: table;
+    // border-collapse: collapse;
+}
+
+// テーブルの奇数行
+table.t-line tr:nth-child(odd) {
+    background-color: snow;
+    border-left-color: 2px #94adda;
+}
+
+// テーブルの偶数行
+table.t-line tr:nth-child(even) {
+    background-color: #EFEFEF;
+    border-left-color: 2px #94adda;
+}
+
+thead th {
+    // border-bottom: 5px solid #7facc9;
+    background-color: #8adcf2;
+    // background-color: #192f60;
+    // color: #000;
+    // color: #fff;
+}
+
+// thead {
+//     border-bottom: 2px solid;
+//     border-color: #7facc9;
+//     border-bottom-color: #7facc9;
+// }
+
+tbody th {
+    border-top: 2px;
+    border-left-color: #94adda;
+    // border-top: 2px solid #94adda;
+    // border-color: #cccccc;
+}
+
+tbody td {
+    border-top: 2px;
+    border-left-color: #94adda;
+    // border-top: 2px solid #94adda;
+    // border-left: 2px dotted #94adda;
+    // border-color: #cccccc;
+}
+
+
+
+
+// table th, table td{
+//     border-style: dotted #94adda; /* 線種 */
+//     border-style: solid;
+//     border-width: 2px; /* 線の太さ */
+//     border-color: #192f60; /* 線色 */
+// }
+
+// table th {
+//         // border-style: dotted #94adda; /* 線種 */
+//         border-style: solid #192f60;
+//         border-width: 2px; /* 線の太さ */
+//         // border-color: #192f60; /* 線色 */
+//         color: #fff;
+//     }
+
+
+// ボタン
+.btn {
+    // background-color: #8aa8f2;
+    // border-color: #8aa8f2;
+    background-color: #a18af2;
+    border-color: #a18af2;
 }
