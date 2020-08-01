@@ -1,0 +1,88 @@
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #000;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-family: "Nunito", sans-serif;
+}
+
+.nav_header {
+  z-index: 9999;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 1500px;
+  height: 40px;
+  background-color: #fff;
+  opacity: 0.6;
+  border-bottom: 1px solid #ccb374;
+}
+
+.navbar-brand {
+  color: gray !important;
+  margin-left: auto;
+}
+
+.nav-link {
+  color: gray !important;
+  margin-right: auto;
+}
+
+.login-box {
+  background-color: #EFEFEF;
+}
+
+.login-header {
+  background-color: #94adda;
+}
+
+.login-body {
+  background-color: #EFEFEF;
+}
+
+.py-4 {
+  margin-top: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 5px solid;
+}
+
+table.table-dark {
+  color: #000;
+  width: 80%;
+  border-color: #8da0b6;
+  border-width: 5px;
+}
+
+table.t-line tr:nth-child(odd) {
+  background-color: snow;
+  border-left-color: 2px #94adda;
+}
+
+table.t-line tr:nth-child(even) {
+  background-color: #EFEFEF;
+  border-left-color: 2px #94adda;
+}
+
+thead th {
+  background-color: #8adcf2;
+}
+
+tbody th {
+  border-top: 2px;
+  border-left-color: #94adda;
+}
+
+tbody td {
+  border-top: 2px;
+  border-left-color: #94adda;
+}
+
+.btn {
+  background-color: #a18af2;
+  border-color: #a18af2;
+}
+
